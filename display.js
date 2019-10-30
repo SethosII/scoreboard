@@ -206,5 +206,5 @@ var scoreboard = {
 };
 
 window.onload = function(){
-	document.onkeypress = config.handleKey;
+	document.onkeydown = config.handleKey;
 }
